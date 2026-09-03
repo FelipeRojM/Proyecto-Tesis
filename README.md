@@ -8,23 +8,22 @@
 ## 📌 Descripción General
 Este repositorio contiene el diseño de hardware (esquemáticos y PCB) de un convertidor de potencia con topología de puente H, desarrollado como proyecto de título de Ingeniería Civil Electrónica. El objetivo principal de este hardware es servir como plataforma educativa para el estudio de modulación PWM y electrónica de potencia en laboratorios universitarios.
 
-*(Inserta aquí un render 3D de tu placa terminada exportado desde Altium. Una buena imagen vale más que mil palabras para un reclutador).*
-`![Render 3D de la PCB](ruta/a/tu/imagen/render3d.png)`
+
+`![Render 3D de la PCB](Hardware/imagenes/PCB1-copia.jpg)`
 
 ## ⚙️ Características Técnicas
 * **Software EDA:** Altium Designer
 * **Topología:** Puente H
-* **Módulos de Potencia:** *(Ej: Integración y ruteo para módulos IGBT tipo Infineon FF300R12KE4 u otros que hayas utilizado).*
+* **Módulos de Potencia:** Modulo integrado de puente H con IGBTs Semikron Semitop SKGH15S063
 * **Propósito:** Uso en entornos de laboratorio (consideraciones de seguridad, puntos de prueba accesibles, etc.).
 * **Fabricación:** Diseño optimizado y fabricado exitosamente (Archivos Gerber y NC Drill verificados con PCBWay).
 
+
 ## 📂 Estructura del Repositorio
+* `/Fabricacion`: Contiene los archivos utilizados para la fabricación del prototipo.
+* `/Hardware`: Contiene el proyecto de Altium Designer con los esquemáticos y diseño de la PCB.
 
-El proyecto está organizado de la siguiente manera para facilitar su revisión y manufactura:
-
-```text
-├── Hardware/               # Archivos fuente de Altium (.PrjPcb, .SchDoc, .PcbDoc)
-├── Fabrication/            # Archivos listos para manufactura (Gerbers, NC Drill, Pick & Place)
-├── Docs/                   # Documentación técnica, esquemáticos en formato PDF y reportes
-├── BOM/                    # Lista de Materiales (Bill of Materials) en formato CSV/Excel
-└── README.md               # Este documento
+## 👨‍💻 Autor
+**Felipe Antonio**  
+*Ingeniero Civil Electrónico*  
+[Perfil de LinkedIn](https://www.linkedin.com/in/felipe-rojas-monrroy)
