@@ -8,7 +8,7 @@
 ## 📌 Descripción General
 Este repositorio contiene el diseño de hardware (esquemáticos y PCB) de un convertidor de potencia con topología de puente H, desarrollado como proyecto de título de Ingeniería Civil Electrónica. El objetivo principal de este hardware es servir como plataforma educativa para el estudio de modulación PWM y electrónica de potencia en laboratorios de la universidad.
 
-`![Render de la PCB](Hardware/imagenes/PCB1-copia.jpg)`
+<img src="Hardware/imagenes/PCB1-copia.jpg" width="400" alt="Render 3D de la PCB">
 
 ## ⚙️ Características Técnicas
 * **Software EDA:** Altium Designer
